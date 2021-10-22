@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Watch your favourite movies and web-series">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script> -->
+    <title>Home - Entertainment</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/small.css">
+</head>
+<body>
+    <div class="top-half">
+        <header>
+            <div class="nav-bar">
+                <div class="nav-left">
+                    <div class="nav-item-left"><a href="#ham">
+                        <span id="ham"></span>
+                        <span id="ham"></span>
+                        <span id="ham"></span></a>
+                    </div>
+                    <div class="nav-item-left" id="item-left-2"><a href="#logo"><img src="images/logo/Netflix_Logo_CMYK.png" alt="logo"></a></div>
+                    <div class="nav-item-left" id="item-left-2s"><a href="#logo"><img src="images/Symbol/Netflix_Symbol_RGB.png" alt="logo"></a></div>
+                    <div class="nav-item-left" id="item-left-3"><a href="#home">Home</a></div>
+                    <div class="nav-item-left" id="item-left-4"><a href="#tv">TV</a></div>
+                    <div class="nav-item-left" id="item-left-5"><a href="#movies">Movies</a></div>
+                </div>
+                <div class="nav-right">
+                    <!-- <div class="nav-item-right" id="item-right-1"><a href="#"><i class="fas fa-search sub-nav-logo"></i></a></div> -->
+                    <div class="nav-item-right">
+                    
+                        <div class="search-box">
+                            <input type="text" class="search-box-input" placeholder="Titles, people, genres">
+                            <button class="search-box-btn">
+                                <i class="fas fa-search sub-nav-logo" style="color: white; font-size: large;"></i>
+                            </button>
+                        </div>                 
+                    
+                    </div>
+                    <div class="nav-item-right user" id="item-right-2">
+                        <div class="user-props"><a href="#user"><i class="far fa-user"></i></a></div>
+                        <div class="user-props"><a href="#user%Praveen">Praveen</a></div>
+                        <div class="user-props"><a href="#user"><div class="triangle arrow"></div></a></div>      
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div>
+            <video autoplay muted loop id="movieTrailer">
+                <source src="videos/venom.mp4" type="video/mp4">
+            </video>
+            <div class="vid-content">
+                <h1>Venom: Let There Be Carnage</h1>
+                <p>Eddie Brock is still struggling to coexist with the shape-shifting extraterrestrial Venom. Brock and Venom must put aside their differences to stop his reign of terror.</p>
+                <button id="playBtn" onclick="playMovie()">Pause Trailer</button>
+                <!-- <script src="./dist/bundle.js"></script> -->
+                <script src="js/btn.js"></script>
+            </div>
+        </div>
+    </div>
+
+    <div class="mainContent">
+        <h1 class="Category_Title">Popular on Netflix</h1>
+        <div class="box"></div>
+        <h1 class="Category_Title">Trending</h1>
+        <div class="box1"></div>
+        <h1 class="Category_Title">TV</h1>
+        <div class="box2"></div>
+        <h1 class="Category_Title">Blockbuster</h1>
+        <div class="box3"></div>
+        <h1 class="Category_Title">Originals</h1>
+        <div class="box4"></div>
+            
+    </div>
+    <section class="link">
+        <div class="logos">
+          <a href="#"><i class="fab fa-facebook-square fa-2x logo"></i></a>
+          <a href="#"><i class="fab fa-instagram fa-2x logo"></i></a>
+          <a href="#"><i class="fab fa-twitter fa-2x logo"></i></a>
+          <a href="#"><i class="fab fa-youtube fa-2x logo"></i></a>
+        </div>
+        <div class="sub-links">
+          <ul>
+            <li><a href="#">Audio and Subtitles</a></li>
+            <li><a href="#">Audio Description</a></li>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Gift Cards</a></li>
+            <li><a href="#">Media Center</a></li>
+            <li><a href="#">Investor Relations</a></li>
+            <li><a href="#">Jobs</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Legal Notices</a></li>
+            <li><a href="#">Corporate Information</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+      </section>
+      <!-- END OF LINKS -->
+  
+      <!-- FOOTER -->
+      <footer>
+        <p>&copy 1997-2021 Netflix, Inc.</p>
+        <p>Praveen Kumar &copy 2021</p>
+      </footer>
+    </div>
+</body>
+</html>
+    <!-- <script src="script.js"></script> -->
+    <script src="js/script.js"></script>
+</body>
+</html>
